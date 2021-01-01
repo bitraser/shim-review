@@ -11,52 +11,52 @@ Make sure you have provided the following information:
 
 
 ###### What organization or people are asking to have this signed:
-`[your text here]`
+`Stellar Information Technology Pvt Ltd`
 
 ###### What product or service is this for:
-`[your text here]`
+`BitRaser Data Eraser Software`
 
 ###### What is the origin and full version number of your shim?
-`[your text here]`
+`https://github.com/rhboot/shim/archive/15.2.zip`
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
-`[your text here]`
+`Stellar requires to employ secure boot for building trusted operating system. This OS has to be capable of booting every machine so that it can be used with BitRaser Data Eraser software.`
 
 ###### How do you manage and protect the keys used in your SHIM?
-`[your text here]`
+`[Cryptographic USB Token]`
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
-`[your text here]`
+`Yes`
 
 ###### If you use new vendor_db functionality, are any hashes whitelisted, and if yes: for what binaries ?
-`[your text here]`
+`[No vendor_db is used]`
 
 ###### Is kernel upstream commit 75b0cea7bf307f362057cc778efe89af4c615354 present in your kernel, if you boot chain includes a linux kernel ?
-`[your text here]`
+`Yes`
 
 ###### if SHIM is loading grub2 bootloader, is CVE CVE-2020-10713 fixed ?
-`[your text here]`
+`Yes`
 
 ##### Did you change your certificate strategy, so that affected by CVE CVE-2020-10713 grub2 bootloaders can not be verified ?
-`[your text here]`
+`[This is the first time submission of  SHIM]`
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-`[your text here]`
+`[GRUB 2.05]`
 
 ###### If your SHIM launches any other components, please provide further details on what is launched
-`[your text here]`
+`SHIM will only launch GRUB. No other component will be launched by the SHIM`
 
 ###### How do the launched components prevent execution of unauthenticated code?
-`[your text here]`
+`SHIM WILL ONLY LAUNCH SIGNED GRUB AND KERNEL,grub verifies signatures on booted kernels`
 
 ###### Does your SHIM load any loaders that support loading unsigned kernels (e.g. GRUB)?
-`[your text here]`
+`NO`
 
 ###### What kernel are you using? Which patches does it includes to enforce Secure Boot?
-`[your text here]`
+`Kernel Version is 5.7.11 it inclued enforce secure boot`
 
 ###### What changes were made since your SHIM was last signed?
-`[your text here]`
+`This is first time submission`
 
 ###### What is the hash of your final SHIM binary?
-`[your text here]`
+`SHA512 has is  f6c7c3de781285dfab0a229e118cc736c08c64a823b11e145e272b6b1b90595fe5bc6b1103f91abe6dcf4b09bb91d10ad5029f9e388317bfb355e09282151232`
