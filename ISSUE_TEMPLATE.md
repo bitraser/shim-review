@@ -23,7 +23,7 @@ Make sure you have provided the following information:
 `Stellar requires to employ secure boot for building trusted operating system. This OS has to be capable of booting every machine so that it can be used with BitRaser Data Eraser software.`
 
 ###### How do you manage and protect the keys used in your SHIM?
-`[Cryptographic USB Token]`
+`Cryptographic USB Token`
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
 `Yes`
@@ -38,10 +38,10 @@ Make sure you have provided the following information:
 `Yes`
 
 ##### Did you change your certificate strategy, so that affected by CVE CVE-2020-10713 grub2 bootloaders can not be verified ?
-`[This is the first time submission of  SHIM]`
+`This is the first time submission of  SHIM`
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-`[GRUB 2.05]`
+`GRUB 2.05 https://github.com/rhboot/grub2/archive/master.zip`
 
 ###### If your SHIM launches any other components, please provide further details on what is launched
 `SHIM will only launch GRUB. No other component will be launched by the SHIM`
